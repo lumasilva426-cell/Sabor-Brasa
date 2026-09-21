@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-list{
+   background-color: darkred;
+   display: flex;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    padding-left: 400px;
+    height: 100px;
+    align-items: center;
+    gap: 100px;
+    font-size: 20px;
+}
+a {
+    color: rgb(255, 255, 255);
+    
+}
+.img {
+   width:200px;
+}
+ul :hover{
+    color: rgb(196, 184, 180);
+}
