@@ -9,23 +9,35 @@ body {
 .nav-list{
    background-color: darkred;
    display: flex;
+   
 }
 .ul{
     list-style: none;
     display: flex;
     padding-left: 400px;
     height: 100px;
+    width: 450px;
     align-items: center;
-    gap: 100px;
-    font-size: 20px;
+    gap: 200px;
+    font-size: 17px;
+    justify-content: center;  
+    text-align: center;
+    
 }
 a {
     color: rgb(255, 255, 255);
-    
 }
 .img {
    width:200px;
 }
 ul :hover{
     color: rgb(196, 184, 180);
+    
+}
+.home{
+    text-align: center;
+}
+.img2 {
+    width: 300px;
+
 }
